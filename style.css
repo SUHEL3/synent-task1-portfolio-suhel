@@ -1,0 +1,45 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.header{
+    background-color: #3742fa;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.about,
+.skills,
+.projects,
+.contact{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+.header:hover{
+    background-color: #273c75;
+}
+
+.about:hover,
+.skills:hover,
+.projects:hover,
+.contact:hover{
+    box-shadow: 0px 0px 10px gray;
+}
